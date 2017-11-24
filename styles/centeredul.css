@@ -1,0 +1,54 @@
+section {
+  margin: auto;
+  width: 30%;
+  float: left;
+/*  padding: 0.2rem;*/
+  background-color: aquamarine;
+}
+
+section:nth-of-type(3n+1) {
+  clear: both;
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 33%;
+}
+
+.center ul {
+  display: inline-block;
+}
+
+.center li {
+  float: left;
+/*  list-style-type: none;*/
+  border-radius: 50%;
+/*
+  height: 1px;
+  width: 1px;
+*/
+  padding: 0.5rem;
+  margin: 8px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-red {
+  background-color: red;
+}
+
