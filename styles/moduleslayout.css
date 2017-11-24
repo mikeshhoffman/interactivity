@@ -1,0 +1,33 @@
+/* simple file for testing */
+
+/* override the normal box model sizing rules */
+* {box-sizing: border-box;}
+
+section {
+  margin: auto;
+  width: 20%;
+  float: left;
+  padding: 1rem;
+  border: 1px;
+  border-color: black;
+  border-width: thick;
+  background-color: red;
+}
+
+section:nth-of-type(3n+1) {
+  clear: both;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+ul {
+/*  margin: 0, auto;  */
+}
+
+li {
+  float: left;
+}

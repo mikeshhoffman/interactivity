@@ -1,0 +1,142 @@
+body {
+  font-family: Helvetica;
+  color: black;
+}
+
+section {
+  margin: auto;
+  width: 20%;
+  float: left;
+  padding: 2rem;
+  border: 1px;
+  border-color: black;
+  border-width: thick;
+}
+
+/* wrap for 3 modules per row */
+section:nth-of-type(3n+1) {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 33%;
+}
+
+.swatches {
+  display: block;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.swatches li {
+  float: left;
+  list-style-type: none;
+  border-radius: 50%;
+  height: 1px;
+  width: 1px;
+  padding: 0.5rem;
+  margin: 8px;
+}
+
+/* use margin-left for the first of the swatches */
+.swatches li:nth-child(1) {
+  margin-left: 0;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-red {
+  background-color: red;
+}
+ 
+.price {
+  font-weight: bold;
+}
+
+h6 {
+  clear: both;
+  color: black;
+  font-size: 1rem;
+  margin: 0;
+}
+
+p {
+  margin: 0.2rem;
+  color: black;
+  font-size: 1rem;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+i {
+  color: orange;
+}
+
+.stars {
+  margin-bottom: 1rem;
+}
+
+button {
+  margin: 3rem, auto, 0, auto;
+  padding: 0.5rem;
+}
+
+/* Transitions exercise in-class: */
+
+
+/*
+div {
+  width: 5vw;
+  height: 10vw;
+  background-color: red;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  -webkit-transition: height 4s;
+  transition: height 4s;
+  transition-timing-function: ease;
+  transition-delay: 2s;
+  }
+*/
+
+/*shorthand:  : width 2s, height 4s;*/
+
+/*
+div:hover {
+  width: 10vw;
+  height: 20vw;
+}
+*/
+
+
+/*div:hover {*/
+/*  -webkit-transition: height 4s;  Safari */
+/*  transition: height 4s;*/
+/*}*/
+
+
+
+
